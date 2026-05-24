@@ -26,3 +26,11 @@ yarn-error.log*
 .vscode
 
 # .env
+
+# docs
+docs/
+
+# speckit
+.specify/
+.github/agents/speckit.*
+.github/prompts/speckit.*
