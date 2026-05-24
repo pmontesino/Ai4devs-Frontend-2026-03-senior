@@ -1,0 +1,24 @@
+@media (max-width: 576px) {
+  .kanban-board {
+    flex-direction: column !important;
+    overflow-x: hidden;
+  }
+
+  .kanban-column {
+    width: 100% !important;
+    min-width: unset !important;
+  }
+}
+
+/* Columna con candidato sobre ella durante el arrastre (RF-007) */
+.kanban-column--drag-over {
+  background-color: rgba(13, 110, 253, 0.08);
+  outline: 2px dashed #0d6efd;
+  outline-offset: -2px;
+  border-radius: 4px;
+}
+
+/* Tarjeta con actualización pendiente — muestra opacidad reducida (RF-003) */
+.candidate-card--pending {
+  opacity: 0.6;
+}

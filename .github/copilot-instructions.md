@@ -17,12 +17,11 @@
 
 ## Gestión de Commits
 
-- Mantén fuera del commit los ficheros relacionados a speckit.
-- Deberán estar en el .gitignore, pero ese .gitignore no se ha subido al repositorio.
-- Es importante que cada colaborador se asegure de no incluirlos en los commits.
+- Los ficheros de Spec Kit (`.specify/`, `specs/`) pueden incluirse en los commits.
 
 ## Desarrollo Frontend
 
 - Antes de escribir cualquier código frontend, lee y cumple todas las reglas definidas en `.specify/memory/constitution.md`.
+- Plan de implementación activo: `specs/003-mover-candidato-fase/plan.md`
 <!-- SPECKIT END -->
 
